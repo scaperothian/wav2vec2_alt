@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "wav2vec-dsing"
+version = "0.1.0"
+description = "utilities for working with wav2vec and the DSing dataset."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.1.5"
+torch = "^2.2.1"
+torchaudio = "^2.2.1"
+flashlight-text = "^0.0.6"
+numpy = "^1.26.4"
+speechbrain = "^1.0.0"
+pandas = "^2.2.1"
+datasets = "^2.18.0"
+transformers = "^4.39.1"
+soundfile = "^0.12.1"
+librosa = "^0.10.1"
+tqdm = "^4.66.2"
+jiwer = "^3.0.3"
+evaluate = "^0.4.1"
+ipywidgets = "^8.1.2"
+accelerate = "^0.28.0"
+matplotlib = "^3.8.3"
+tensorboard = "^2.16.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

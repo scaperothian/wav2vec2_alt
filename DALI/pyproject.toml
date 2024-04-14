@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dali-notebooks"
+version = "0.1.0"
+description = "Project for basic interactions with the DALI dataset."
+authors = ["David Scaperoth <scaperoth@berkeley.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+DALI-dataset = "^1.1"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+yt-dlp = "^2024.3.10"
+jupyterlab = "^4.1.4"
+tqdm = "^4.66.2"
+ffmpeg-normalize = "^1.27.7"
+torch = "^2.2.2"
+torchaudio = "^2.2.2"
+ml-collections = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

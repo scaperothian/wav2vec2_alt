@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "wav2vec2"
+version = "0.1.0"
+description = "Package for running jupyter notebooks with Pytorch models for audio processing: WAV2VEC2."
+authors = ["David Scaperoth <scaperoth@berkeley.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torchaudio = "^2.2.1"
+ipython = "^8.22.2"
+jupyterlab = "^4.1.4"
+numpy = "^1.26.4"
+onnx = "^1.15.0"
+onnxruntime = "^1.17.1"
+flashlight-text = "^0.0.6"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+tabulate = "^0.9.0"
+transformers = "^4.39.3"
+ipywidgets = "^8.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
