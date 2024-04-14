@@ -17,5 +17,6 @@ Repo mainly contains loose artifacts (i.e. this is not meant to be a maintained 
 | ------------- | ------------- |
 | WAV2VEC2_ALT_Report.pdf  | Report describing work done  |
 | WAV2VEC2  | Directory with Jupyter Notebooks and code for training and testing the model |
+| WHISPER  | Directory with Jupyter Notebooks and code for testing the model |
 | DALI  | Directory with Jupyter Notebooks and code for processing the DALI dataset |
 | DSing  | Directory with Jupyter Notebooks and code for processing the DSing dataset |
